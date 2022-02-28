@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Creative Agency Atlanta Georgia | Mousse</title>
+		<meta name="description" content="" />
+		  <meta charset="UTF-8" />
+		  <meta name="viewport" content="width=device-width,initial-scale=1" />
+		  <link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+	<body>
+		<img class="mockup" src="/images/Image-from-iOS.png" />
+		<nav>
+		    <div class="logo">
+				<img src="images/Logo.png" />
+			</div>
+		    <div class="menu">
+				<div class="menu-button">
+					<div class="open-button" onclick="openmenu(this);"></div>
+					<div class="close-button" onclick="closemenu(this);" style="width:0vw;"</div>
+				</div>
+		        <div class="menu-container"></div>
+		    </div>
+		</nav>
+		<script>
+			function openmenu() {
+				document.querySelector('body').setAttribute('style', 'overflow-y:hidden;');
+				document.querySelector('.menu-container').setAttribute('style', 'width:40vw;');
+				document.querySelector('.open-button').setAttribute('style', 'display:none;');
+				document.querySelector('.close-button').setAttribute('style', 'display:block;');
+			}
+			
+			function closemenu() {
+				document.querySelector('body').setAttribute('style', 'overflow-y:visible;');
+				document.querySelector('.menu-container').setAttribute('style', 'width:0vw;');
+				document.querySelector('.open-button').setAttribute('style', 'display:block;');
+				document.querySelector('.close-button').setAttribute('style', 'display:none;');
+			}
+		</script>
+		<section class="one">
+		    <h1>Read to level up your brand?</h1>
+		    <p>We got you. With Mousse you can get the creative services your brand needs for reaching customers, establishing identiy, and differentiating itself from the rest.</p><a class="button">LEARN MORE</a>
+		</section>
+		<section class="two">
+		    <p>Mousse is a creative agency born in Atlanta, Georgia. Our team of designers, photographers, illustrators are focused on communicating your vision. Let us tell your story and create a community with your audience.</p><img src="/images/YellowLeaf.png" />
+		</section>
+		<section class="three">
+		    <div class="row one">
+		        <div class="animated-image"><img src="/images/EyesLarge.gif" /></div>
+		        <div class="text">
+		            <div class="title">Ready to level up your brand?</div>
+		            <p>You know that artsy friend from your friend group? Mousse is that friend. We bring art to everything we do.</p>
+		            <p>Our goal isn't just to deliver what your brand needs, but to deliver a head-turning, jaw-dropping, breath-taking final product that will wow the audience and spart emotion, just like a piece of art would.</p><a class="button">BROWSE SERVICES</a>
+		        </div>
+		    </div>
+		    <div class="row two">
+		        <div class="text">
+		            <div class="title">Our team knows what's up!</div>
+		            <p>Coming up with a creative idea is the easy part. How that idea is executed is what really makes a difference.</p>
+		            <p>That's why everyone at MOusse is specialized in what they do, and every project that comes our way is approached in a unique artistic manner.</p><a class="button">MEET THE TEAM</a>
+		        </div>
+				<div class="animated-image"><img src="/images/HandsPastel.gif" /></div>
+		    </div>
+		</section>
+		<section class="four">
+		    <div class="title">Mousse Services</div>
+			<div class="services-container">
+				<div class="service one">Product Photography</div>
+		    	<div class="service two">Video Production</div>
+		    	<div class="service three">Illustration</div>
+		    	<div class="service four">UI/UX Design</div>
+		    	<div class="service five">Visual Desgin</div>
+		    	<div class="service six">Branding</div>
+			</div>
+		</section>
+		<section class="five">
+		    <div class="title">Mousse Team</div>
+		    <div class="team-member"><img src="/images/Andre.png" />
+		        <p>Andre Servienski</p>
+		        <p>Visual Design</p>
+		        <div class="icons"><img src="" /></div>
+		    </div>
+		    <div class="team-member"><img src="/images/Mia.jpg" />
+		        <p>Mia Vargas</p>
+		        <p>Product Photography</p>
+		        <div class="icons"><img src="" /><img src="" /></div>
+		    </div>
+		    <div class="team-member"><img src="/images/Marissa.png" />
+		        <p>Marissa Keith</p>
+		        <p>UI/UX Design</p>
+		        <div class="icons"><img src="" /></div>
+		    </div>
+		    <div class="team-member"><img src="Jamirbw.jpg" />
+		        <p>Jamir White</p>
+		        <p>Video Production</p>
+		        <div class="icons"><img src="" /></div>
+		    </div>
+		    <div class="team-member"><img src="/images/Polina.jpg" />
+		        <p>Polina Protopopova</p>
+		        <p>Branding</p>
+		        <div class="icons"><img src="" /></div>
+		    </div>
+		    <div class="team-member"><img src="/images/Anabellabw.jpg" />
+		        <p>Anabella Ortiz</p>
+		        <p>Illustration</p>
+		        <div class="icons"><img src="" /><img src="" /></div>
+		    </div>
+		    <div class="team-member"><img src="/images/natbw.jpg" />
+		        <p>Nat Vargas</p>
+		        <p>CPO</p>
+		    </div>
+		</section>
+		<footer>
+		    <div class="text">
+		        <div class="title">Let's Chat!</div>
+		        <p>Explore your ideas with us.</p>
+		    </div>
+		</footer>
+		</body>
+</html>

@@ -1,0 +1,76 @@
+body {margin: 0;padding-top: 1px;}
+.mockup {position:absolute;opacity:.2;width: 100%;height: auto;display:none;/*! opacity: 1; *//*! opacity: 0; */}
+p{font-size: 1.57vw;line-height: 2.3vw;margin-top: 1vw;margin-bottom: 2.5vw;}
+a.button{width: auto;background: #ffeabe;height: 5vw;display: inline-block;text-align: center;color: #58273d;font-size: 1.5vw;line-height: 5vw;border-radius: 11px;padding: 0 2vw;}
+nav{position: absolute;padding-left: 10.6vw;padding-top: 3.3vw;width: 100%;box-sizing: border-box;}
+nav .logo{height: 7vw;width: 7vw;display: inline-block;}
+nav .logo img {width:100%;}
+nav .menu{}
+nav .menu .menu-container{height: 100vh;width: 0vw;position: fixed;right: 0;top: 0;background: rgb(255, 234, 190);z-index: 9;transition:width .4s ease;}
+nav .menu .menu-button {float: right;position: absolute;top: 3.3vw;right: 5vw;}
+nav .menu .menu-button .open-button {height: 4vw;width: 4vw;background: white;}
+nav .menu .menu-button .close-button {height: 4vw;width: 4vw;background: black;position: relative;z-index: 99;}
+section.one{height: 35.5vw;padding: 18.5vw 10vw;color: white;background: #da3a38;}
+section.one h1{font-size: 3.25vw;}
+section.one p{font-size: 3.5vw;padding-top: 1vw;line-height: 4.6vw;margin-top: 3.5vw;margin-bottom: auto;}
+section.one a.button{margin-top: 5.5vw;}
+section.two{height: 40vw;padding-top: 12vw;}
+section.two p{padding: 0 7vw;font-size: 3vw;line-height: 5.6vw;}
+section.two img{position: absolute;right: 6vw;width: 12vw;height: 10vw;margin-top: -1vw;}
+section.three{padding: 9vw 0 1px 11vw;background: #da3a38;color: white;}
+section.three > div{margin: 8.5vw 0;}
+section.three div .animated-image{display: inline-block;vertical-align: middle;}
+section.three div.row.one .animated-image {margin-right: 15.4vw;}
+section.three div.row.two .animated-image {margin-left: 2.2vw;}
+section.three div .animated-image img{display: inline-block;width: 28vw;vertical-align: top;/*! margin-top: 1vw; */}
+section.three div.row.two .animated-image img {width:35vw;margin-top:0;}
+section.three div .text{display: inline-block;width: 40vw;vertical-align: top;}
+section.three div .text .title{font-size: 2.15vw;}
+section.three div .text p{}
+section.three div .text a.button{}
+section.four{text-align: center;padding: 10.3vw 14vw;position:relative;background: rgb(88, 39, 61);}
+section.four .services-container {text-align: center;display: flex;flex-wrap: wrap;justify-content: center;}
+section.four .title{font-size: 3.6vw;margin-bottom: 7vw;color: white;}
+section.four .service{width: 21.5vw;height: 20.5vw;margin: 0 .5vw;font-size: 2.5vw;padding: 0 3vw;display: flex;align-items: center;line-height: 5vw;justify-content: center;margin-bottom: 2vw;border-radius: 13px;color:white;}
+section.four .service.one{background: #425e89;}
+section.four .service.two{background: #da3a38;}
+section.four .service.three{background: #3c7779;}
+section.four .service.four{background: #425e89;}
+section.four .service.five{background: #da3a38;}
+section.four .service.six{background: #cb0035;}
+section.five{text-align: center;padding: 8vw 23.4vw 1px;background: rgb(60, 119, 121);color: white;}
+section.five .title{font-size: 3.5vw;padding-bottom: 6.7vw;}
+section.five .team-member{text-align: left;clear: both;padding-top: 1px;margin-bottom: 8vw;min-height: 16vw;}
+section.five .team-member > img{width: 16.3vw;border-radius: 50vw;float: left;height: 16vw;width: 16vw;margin-right: 3vw;}
+section.five .team-member p{font-size: 3vw;}
+section.five .team-member .icons{}
+section.five .team-member .icons img{}
+footer{background: #da3a38;padding: 11vw 0 0 10vw;color: white;height: 51vw;}
+footer .text{}
+footer .text .title{font-size: 3.5vw;�: \\;}
+footer .text p{}
+
+@media (max-width:850px) {
+	section.four .service{width:32vw;height:37vw;margin:0 0.5vw;font-size:5.5vw;line-height:11vw;margin-bottom:0.5vw;color:white}
+	section.one h1{font-size:8.25vw}
+	section.one{height:auto;padding:23.5vw 10vw}
+	section.one p{font-size:5.5vw;line-height:8.6vw}
+	a.button{font-size:5.5vw;padding:5vw 5vw}
+	nav .logo{width:14vw}
+	nav .menu .menu-button .open-button{height:14vw;width:14vw}
+	nav .menu .menu-button{right:10vw}
+	section.two p{padding:0 10vw;font-size:5.5vw;line-height:8.6vw}
+	section.two{height:auto;padding-bottom:12vw}
+	section.two img{width:16vw}
+	section.three div .animated-image img{width:60vw;margin-bottom:13vw}
+	section.three div.row.two .animated-image img{width:75vw;position:absolute;top:0;margin-left:-13vw}
+	section.three div .text .title{font-size:6.15vw;font-weight:700}
+	section.three div .text{width:auto;padding-right:16vw}
+	section.three{padding:9vw 0 1px 10vw}
+	p{font-size:5.5vw;line-height:8.6vw}
+	section.three > div{margin:14.5vw 0}
+	section.four .title{font-size:6.15vw;font-weight:700}
+	section.four{padding:10.3vw 10vw}
+	section.five .title{font-size:6.15vw;font-weight:700}
+	section.three > div.row.two{padding:;padding-top:58vw;position:relative}
+}
